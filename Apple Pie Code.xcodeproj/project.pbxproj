@@ -8,22 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DBE1172725BF037D00E84421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1172625BF037D00E84421 /* AppDelegate.swift */; };
-		DBE1172925BF037D00E84421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1172825BF037D00E84421 /* SceneDelegate.swift */; };
 		DBE1172B25BF037D00E84421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1172A25BF037D00E84421 /* ViewController.swift */; };
-		DBE1172E25BF037D00E84421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE1172C25BF037D00E84421 /* Main.storyboard */; };
 		DBE1173025BF038100E84421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE1172F25BF038100E84421 /* Assets.xcassets */; };
-		DBE1173325BF038100E84421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE1173125BF038100E84421 /* LaunchScreen.storyboard */; };
+		DBE1174125BF0CE100E84421 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE1174025BF0CE100E84421 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBE1172325BF037D00E84421 /* Apple Pie Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE1172625BF037D00E84421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBE1172825BF037D00E84421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DBE1172A25BF037D00E84421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBE1172D25BF037D00E84421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBE1172F25BF038100E84421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBE1173225BF038100E84421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE1173425BF038100E84421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE1174025BF0CE100E84421 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +52,10 @@
 		DBE1172525BF037D00E84421 /* Apple Pie Code */ = {
 			isa = PBXGroup;
 			children = (
+				DBE1174025BF0CE100E84421 /* Default-568h@2x.png */,
 				DBE1172625BF037D00E84421 /* AppDelegate.swift */,
-				DBE1172825BF037D00E84421 /* SceneDelegate.swift */,
 				DBE1172A25BF037D00E84421 /* ViewController.swift */,
-				DBE1172C25BF037D00E84421 /* Main.storyboard */,
 				DBE1172F25BF038100E84421 /* Assets.xcassets */,
-				DBE1173125BF038100E84421 /* LaunchScreen.storyboard */,
 				DBE1173425BF038100E84421 /* Info.plist */,
 			);
 			path = "Apple Pie Code";
@@ -124,9 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE1173325BF038100E84421 /* LaunchScreen.storyboard in Resources */,
 				DBE1173025BF038100E84421 /* Assets.xcassets in Resources */,
-				DBE1172E25BF037D00E84421 /* Main.storyboard in Resources */,
+				DBE1174125BF0CE100E84421 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,30 +132,10 @@
 			files = (
 				DBE1172B25BF037D00E84421 /* ViewController.swift in Sources */,
 				DBE1172725BF037D00E84421 /* AppDelegate.swift in Sources */,
-				DBE1172925BF037D00E84421 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DBE1172C25BF037D00E84421 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBE1172D25BF037D00E84421 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DBE1173125BF038100E84421 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBE1173225BF038100E84421 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DBE1173525BF038100E84421 /* Debug */ = {
