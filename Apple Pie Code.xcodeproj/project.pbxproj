@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB882F5825C42F3C00BC1EFB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB882F5725C42F3C00BC1EFB /* Game.swift */; };
+		DB882F6025C43B2A00BC1EFB /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DB882F5F25C43B2A00BC1EFB /* Screenshot.png */; };
 		DBE1172725BF037D00E84421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1172625BF037D00E84421 /* AppDelegate.swift */; };
 		DBE1172B25BF037D00E84421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1172A25BF037D00E84421 /* ViewController.swift */; };
 		DBE1173025BF038100E84421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE1172F25BF038100E84421 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		DB882F5725C42F3C00BC1EFB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DB882F5F25C43B2A00BC1EFB /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		DBE1172325BF037D00E84421 /* Apple Pie Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE1172625BF037D00E84421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE1172A25BF037D00E84421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB882F5E25C43B0300BC1EFB /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DB882F5F25C43B2A00BC1EFB /* Screenshot.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		DBE1171A25BF037D00E84421 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		DBE1172525BF037D00E84421 /* Apple Pie Code */ = {
 			isa = PBXGroup;
 			children = (
+				DB882F5E25C43B0300BC1EFB /* Screenshots */,
 				DBE1172625BF037D00E84421 /* AppDelegate.swift */,
 				DBE1172F25BF038100E84421 /* Assets.xcassets */,
 				DBE1174025BF0CE100E84421 /* Default-568h@2x.png */,
@@ -123,6 +134,7 @@
 			files = (
 				DBE1173025BF038100E84421 /* Assets.xcassets in Resources */,
 				DBE1174125BF0CE100E84421 /* Default-568h@2x.png in Resources */,
+				DB882F6025C43B2A00BC1EFB /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
